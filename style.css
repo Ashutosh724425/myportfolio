@@ -378,6 +378,12 @@ nav .fa-solid{
       left: 25px;
       cursor: pointer;
    }
+    nav i{
+      position: fixed;
+      top: 25px;
+      right: 25px;
+      cursor: pointer;
+   }
    .sub-title{
       font-size: 40px;
    }
