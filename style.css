@@ -357,11 +357,17 @@ nav .fa-solid{
       display: block;
       font-size: 25px;
    }
+   nav i{
+      position: fixed;
+      top: 25px;
+      right: 25px;
+      cursor: pointer;
+   }
    nav ul{
       background: #4942E4;
       position: fixed;
       top: 0;
-      right: -200px;
+      right: 0;
       width: 200px;
       height: 100vh;
       padding-top: 50px;
@@ -372,16 +378,10 @@ nav .fa-solid{
       display: block;
       margin: 25px;
    }
-   .nav ul .fa-solid{
+   nav ul .fa-solid{
       position: absolute;
       top: 25px;
       left: 25px;
-      cursor: pointer;
-   }
-    nav i{
-      position: fixed;
-      top: 25px;
-      right: 25px;
       cursor: pointer;
    }
    .sub-title{
